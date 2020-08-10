@@ -47,7 +47,8 @@ all standard (hardlink-supporting) *NIX filesystems, mostly transparently.
 * `tag import [--move] <file-or-dir> [...]`: copies (or moves) the file or
     directory given into `./.taghl-orig/`, deduping as required; echoes the
     resulting file name(s)
-* `tag list <path/to/file>`: lists all known tags for the given file
-* `tag add <path/to/file> <tag> [...]` adds one or more tags to the given file
+* `tag list <path/to/file> [...]`: lists all known unique tags for the given
+    file(s)
+* `tag add <tag> <path/to/file> [...]` adds a tag to given file(s)
 * `tag rm [--all] <path/to/file> <tag> [...]` removes one or more tags from
     the given file, or with `--all` removes **all** copies of the given file
