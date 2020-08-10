@@ -50,5 +50,5 @@ all standard (hardlink-supporting) *NIX filesystems, mostly transparently.
 * `tag list <path/to/file> [...]`: lists all known unique tags for the given
     file(s)
 * `tag add <tag> <path/to/file> [...]` adds a tag to given file(s)
-* `tag rm [--all] <path/to/file> <tag> [...]` removes one or more tags from
+* `tag rm (--all | <tag>) <path/to/file> [...]` removes one or more tags from
     the given file, or with `--all` removes **all** copies of the given file

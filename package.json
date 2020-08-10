@@ -11,6 +11,9 @@
     "commander": "^6.0.0",
     "mkdirp": "^1.0.4"
   },
+  "engines": {
+    "node": ">=10"
+  },
   "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-config-groupon": "^10.0.1",
