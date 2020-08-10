@@ -20,8 +20,7 @@ all standard (hardlink-supporting) *NIX filesystems, mostly transparently.
     tags.  Tagged trees **cannot** be nested (i.e. no directories with
     `.taghl-orig/` anywhere inside other directories with same)
 1. To **tag** a file, it is hardlinked into a tag directory, with or without
-    directory nesting or hierarchical tagging, inside a final directory named
-    `_files`.  Here are some examples:
+    directory nesting or hierarchical tagging.  Here are some examples:
     * To tag `/t/.taghl-orig/upload-20200401/bob.jpg` as `people`, you would do:
         `mkdir -p /t/people && ln /t/.taghl-orig/upload-20200401/bob.jpg /t/people/bob.jpg`.
         If this forms a name collision, the target file should be auto-deduped
